@@ -54,7 +54,6 @@ def job_and_hire_date(cur, conn):
     s = sorted(res, key= lambda x: x[0])
     # print(s)
     return s[0][1]
-
     pass
 
 # TASK 3: IDENTIFY PROBLEMATIC SALARY DATA
